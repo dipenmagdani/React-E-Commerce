@@ -1,0 +1,59 @@
+body {
+    background-color: #242424;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  .height {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between cards */
+    padding: 20px; /* Optional: padding around the grid */
+  }
+  
+  .card {
+    background: #1b1b1a;
+    color: #ffffff;
+    width: 100%;
+    height: 430px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .card h4, .card h5, .card p {
+    margin: 5px 0;
+  }
+
+  .card > .cart-add > button{
+    margin: 5px;
+  }
+  
+  .btn-danger {
+    height: 48px;
+    font-size: 18px;
+    background-color: #33325b;
+    border: 1px solid wheat;
+    transition: 0.5s;
+  }
+  
+  .btn-danger:hover {
+    background-color: #f2f3f4;
+    color: #5d032b;
+  }
+  
